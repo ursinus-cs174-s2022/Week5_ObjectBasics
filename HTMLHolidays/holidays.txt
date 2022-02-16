@@ -1,0 +1,168 @@
+Labor Day
+9
+6
+2021
+Rosh Hashanah (New Year)
+9
+7
+2021
+Yom Kippur (Day of Atonement)
+9
+16
+2021
+Sukkot (Feast of Tabernacles)
+9
+21
+2021
+Shemini Atzeret
+9
+28
+2021
+Simchat Torah
+9
+29
+2021
+Navratri/Dussehra
+10
+7
+2021
+Indigenous Peoples Day
+10
+11
+2021
+Mawlid al-Nabi (birthday of Mohammad)
+10
+18
+2021
+Diwali
+11
+4
+2021
+Veterans Day
+11
+11
+2021
+Thanksgiving Day
+11
+25
+2021
+Native American Heritage Day
+11
+26
+2021
+Hanukkah (Chanukah)
+11
+28
+2021
+Christmas Day
+12
+25
+2021
+New Years Day
+1
+1
+2022
+Orthodox Christmas
+1
+7
+2022
+Martin Luther King Day
+1
+17
+2022
+Lunar New Year
+2
+1
+2022
+Presidents' Day
+2
+21
+2022
+Maha Shivaratri
+3
+1
+2022
+Beginning of Lent
+3
+2
+2022
+Ash Wednesday
+3
+2
+2022
+Purim
+3
+17
+2022
+Holi
+3
+18
+2022
+April Fool's
+4
+1
+2022
+Beginning of Ramadan
+4
+2
+2022
+Ramanavami
+4
+10
+2022
+Good Friday
+4
+15
+2022
+Passover (Pesach)
+4
+16
+2022
+Easter
+4
+17
+2022
+Orthodox Good Friday
+4
+22
+2022
+Orthodox Easter
+4
+24
+2022
+Lailat al-Qadr
+4
+28
+2022
+Eid al-Fitr (End of Ramadan)
+5
+3
+2022
+Memorial Day
+5
+30
+2022
+Shavuot
+6
+5
+2022
+Juneteenth
+6
+19
+2022
+Independence Day
+7
+4
+2022
+Eid al-Adha
+7
+10
+2022
+Muharram (Al Hijrah New Year)
+7
+30
+2022
+Janmashtami
+8
+18
+2022

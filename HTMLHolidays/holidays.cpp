@@ -24,15 +24,15 @@ void printHTMLStart() {
     cout << "</head>\n";
     cout << "<body>\n";
     cout << "<h1>2021/2022 Holidays</h1>";
+    cout << "<table>";
 }
     
 /**
  * Print a string that's required at the end of the HTML document
  */
 void printHTMLEnd() {
-    cout << "</body>\n</html>";
+    cout << "</table></body>\n</html>";
 }
-
 
 
 int main() {
@@ -45,19 +45,28 @@ int main() {
     if (fin == NULL)
         exit(EXIT_FAILURE);
     
-    int counter;
-    string s;
+    printHTMLStart();
+
+    int counter = 0;
+    string name;
     int month, day, year;
     while ((read = getline(&line, &len, fin)) != -1) {
-        // The "line" variable holds a character array for that line
-        // You can convert this to a string by using the string constructor
-        // string s(line);
-        // You can convert it to an int by using atoi
-        // int x = atoi(line);
+        counter++;
+        if (counter % 4 == 0) {
+            year = atoi(line);
+            Holiday holiday(name, day, month, year);
+            holiday.printRow();
+        } else if (counter % 4 == 3) {
+            day = atoi(line);
+        } else if (counter % 4 == 2) {
+            month = atoi(line);
+        } else if (counter % 4 == 1) {
+            name = string(line);
+        }
     }
     fclose(fin);
     if (line)
         free(line);
-    exit(EXIT_SUCCESS);
+    printHTMLEnd();
     return 0;
 }

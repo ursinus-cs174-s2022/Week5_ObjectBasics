@@ -9,6 +9,10 @@ class Person {
         unsigned int ssn;
         string name;
 
+        void celebrateBirthday() {
+            this->age++;
+        }
+
         // Constructor
         Person(int age, unsigned int ssn, string name) {
             // Every object comes with a pointer to itself called "this"
@@ -34,7 +38,7 @@ class Person {
         }
 };
 
-int main() {
+void doTest() {
     // Statically allocated object
     Person obj(32, 1234567890, "Chris Tralie");
     //Person obj1(32, 1987654321, "Tre");
@@ -64,5 +68,9 @@ int main() {
 
     delete obj1; // Freeing memory from dynamically allocated object
     delete[] objs; // Freeing memory from array of object pointers
+}
+
+int main() {
+    doTest();
     return 0;
 }

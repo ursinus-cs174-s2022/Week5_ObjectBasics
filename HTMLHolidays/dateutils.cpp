@@ -98,3 +98,20 @@ string getMonthString(int month) {
     }
     return ret;
 }
+
+
+// New stuff!!  This is how we implement classes from a header file
+
+Holiday::Holiday(string name, int month, int day, int year) {
+    this->name = name;
+    (*this).month = month;
+    this->day = day;
+    this->year = year;
+}
+
+void Holiday::printRow() {
+    cout << "<tr>";
+    cout << "<td>" << name << "</td>";
+    cout << "<td>" << month << "/" << day << "/" << year << "</td>";
+    cout << "</tr>";
+}

@@ -23,21 +23,22 @@ int getMicroseconds() {
     return (int)tv.tv_usec;
 }
 
-
-float RAND_A = 49;
-float RAND_C = 17;
-float RAND_M = 97;
-
-float x = ((float)(getMicroseconds()%1000))/1000;
+RandFloat::RandFloat() {
+    startX = ((float)(getMicroseconds()%1000))/1000;
+    x = startX;
+    randA = 49;
+    randC = 17;
+    randM = 97;
+}
 
 /**
  * @brief Return a random number between 0 and 1
  * 
  * @return float 
  */
-float nextFloat() {
-    float ret = RAND_A*x + RAND_C;
-    float fac = (float)((int)(ret/RAND_M));
-    x = ret - fac*RAND_M;
+float RandFloat::nextFloat() {
+    float ret = randA*x + randC;
+    float fac = (float)((int)(ret/randM));
+    x = ret - fac*randM;
     return x/100;
 }

@@ -2,8 +2,9 @@
 #include "randutils.h"
 
 int main() {
+    RandFloat rand;
     for (int i = 0; i < 100; i++) {
-        if (nextFloat() < 0.5) {
+        if (rand.nextFloat() < 0.5) {
             printf("H");
         }
         else {
